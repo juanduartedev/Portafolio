@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>
+        Portafolio Juan Duarte
+    </title>
+</head>
+<body>
+  <main class="container_main">
+    <div class="container_aside">
+    <div class="container_top_chats">
+       <div class="container_title">
+        <a href="/" class="logo_wsp">
+            Juan Duarte
+        </a>
+       </div>
+       <div class="container_title_icons">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square-plus-icon lucide-message-square-plus"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"/><path d="M12 8v6"/><path d="M9 11h6"/></svg>        
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ellipsis-vertical-icon lucide-ellipsis-vertical"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg>
+       </div>
+    </div>
+    <div class="container_input_search">
+        <svg class="icon_search" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        <input type="text" name="" id="" placeholder="Buscar un chat o iniciar uno nuevo" class="input_search">
+    </div>
+    <div class="container_section_chats">
+        <span class="section_chat active">
+            Todos
+        </span>
+        <span class="section_chat">
+            No leídos
+        </span>
+        <span class="section_chat">
+            Favoritos
+        </span>
+        <span class="section_chat">
+            Grupos
+        </span>
+    </div>
+    <div class="container_archived">
+        <div class="archived_icon_text">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-folder-down-icon lucide-folder-down"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/><path d="M12 10v6"/><path d="m15 13-3 3-3-3"/></svg>
+            Archivados
+        </div>
+        <span class="number_archived">
+            1
+        </span>
+    </div>
+    <div class="container_chats">
+        <div class="chat" onclick="openChat('proyectos')">
+            <div class="profile_user">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase-business-icon lucide-briefcase-business"><path d="M12 12h.01"/><path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><path d="M22 13a18.15 18.15 0 0 1-20 0"/><rect width="20" height="14" x="2" y="6" rx="2"/></svg>
+            </div>
+            <div class="container_title_placeholder_chat">
+                <span>
+                    Proyectos
+                </span>
+                <span class="placeholder_message">
+                    Hola te muestro algunos de mis proy...
+                </span>
+            </div>
+        </div>
+        <div class="chat" onclick="openChat('experiencia')">
+            <div class="profile_user">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text-icon lucide-file-text"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>            </div>
+             <div class="container_title_placeholder_chat">
+                <span>
+                    Experiencia
+                </span>
+                <span class="placeholder_message">
+                    He trabajado desarrollando sistemas...
+                </span>
+            </div>
+        </div>
+        <div class="chat" onclick="openChat('sobreMi')">
+            <div class="profile_user">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-icon lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>
+            </div>
+            <div class="container_title_placeholder_chat">
+                <span>
+                    Sobre mi
+                </span>
+                <span class="placeholder_message">
+                    Soy Juan, ingeniero de software apasi...
+                </span>
+            </div>
+        </div>
+        <div class="chat" onclick="openChat('tecnologias')">
+            <div class="profile_user">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-icon lucide-code"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg>
+            </div>
+            <div class="container_title_placeholder_chat">
+                <span>
+                    Tecnologías
+                </span>
+                <span class="placeholder_message">
+                    HTML, CSS, JavaScript, PHP, Laravel...
+                </span>
+            </div>
+        </div>
+        <div class="chat" onclick="openChat('tiempoLibre')">
+            <div class="profile_user">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock4-icon lucide-clock-4"><path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="10"/></svg>
+            </div>
+            <div class="container_title_placeholder_chat">
+                <span>
+                    Tiempo Libre
+                </span>
+                <span class="placeholder_message">
+                    HTML, CSS, JavaScript, PHP, Laravel...
+                </span>
+            </div>
+        </div>
+        <div class="chat" onclick="openChat('contacto')">
+            <div class="profile_user">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-incoming-icon lucide-phone-incoming"><path d="M16 2v6h6"/><path d="m22 2-6 6"/><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>            </div>
+            <div class="container_title_placeholder_chat">
+                <span>
+                    Contacto
+                </span>
+                <span class="placeholder_message">
+                    Visita mi GitHub: github.com/juandu...
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="container_cv">
+        <a class="link_cv" href="Cv Duarte Juan Carlos.docx.pdf" download>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-to-line-icon lucide-arrow-down-to-line"><path d="M12 17V3"/><path d="m6 11 6 6 6-6"/><path d="M19 21H5"/></svg>
+            Descargar CV
+        </a>
+    </div>
+  </div>
+
+  <div class="container_content_chat">
+    <div>
+        <div class="container_title_section">
+            <div class="container_image_user_chat">
+                <div class="profile_user">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-icon lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>
+            </div>
+            <div id="chatTitle">
+                Selecciona una conversación
+            </div>
+            </div>
+            <div class="container_title_icons_top">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video-icon lucide-video"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ellipsis-vertical-icon lucide-ellipsis-vertical"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg>
+                </div>
+            </div>
+        </div>
+    <div id="messages" class="container_messages">
+        <div class="message received">
+            Elige un chat para comenzar
+        </div>
+    </div>
+    </div>
+    <div class="container_send_message">
+        <span class="text_name">
+            Desarrollado por Juan Duarte
+        </span>
+        <input type="text" id="inputMessage" class="input_send_message" disabled>
+        <svg class="icon_microphone" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mic-icon lucide-mic"><path d="M12 19v3"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><rect x="9" y="2" width="6" height="13" rx="3"/></svg>
+    </div>
+  </div>
+  </main>
+
+  <section class="movil_section">
+    <h1>
+        Este portafolio por ahora está optimizado para verse desde escritorio.
+    </h1>
+  </section>
+
+    <!-- Development version -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <!-- Production version -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+</body>
+</html>
