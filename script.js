@@ -38,6 +38,9 @@ const chats =
     { sender: "other", text: "¿Qué haces en tu tiempo libre?" },
     { sender: "me", text: "Me gusta maquetar sitios web basándome en aplicaciones reales." },
     { sender: "me", text: "De hecho, de ahí surgió la idea de crear este portafolio." },
+    {sender: "me", text: "Google: https://google.juanduartedev.com"},
+    {sender: "me", text: "YouTube: https://youtube.juanduartedev.com"},
+    {sender: "me", text: "Instagram: https://instagram.juanduartedev.com"}
   ],
 
   contacto: 
